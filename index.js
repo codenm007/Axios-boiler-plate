@@ -19,7 +19,7 @@ const config = {
 //    mobile:"",
 //    province:""
 // };
-let path = `y97u3r7rjb`
+let path = ``
 
 Axios.get( 
   `enter your url here`,
