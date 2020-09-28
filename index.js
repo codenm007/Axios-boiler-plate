@@ -10,20 +10,15 @@ const config = {
 
 // 'application/x-www-form-urlencoded'
 
-// const bodyParameters = {
-//    address: "",
-//    city:"",
-//    email:"",
-//    firstname:"",
-//    lastname:"",
-//    mobile:"",
-//    province:""
-// };
+const bodyParameters = {
+   username:"admin",
+   password:"password"
+};
 let path = ``
 
-Axios.get( 
+Axios.post( 
   `enter your url here`,
-  config
+  bodyParameters
 ).then((data)=>{
   let details =data;
 console.log(details);

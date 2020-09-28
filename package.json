@@ -5,6 +5,9 @@
   "main": "index.js",
   "author": "Nilanjan Majumdar",
   "license": "MIT",
+  "scripts":{
+    "test" :"node index.js"
+  },
   "dependencies": {
     "axios": "^0.19.2"
   }
